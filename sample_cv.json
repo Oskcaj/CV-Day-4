@@ -1,0 +1,161 @@
+{
+    "personal_info": {
+        "name": "Clark Kent",
+        "email": "clark.kent@dailyplanet.com",
+        "phone": "+1-555-0123",
+        "address": "344 Clinton St, Apt 3D, Metropolis",
+        "linkedin": "linkedin.com/in/clarkkent",
+        "github": "github.com/clarkkent",
+        "website": "clarkkent.dev",
+        "birth_date": "1980-02-29",
+        "nationality": "American",
+        "current_location": "Metropolis",
+        "preferred_job_location": "Metropolis or Remote",
+        "current_salary": "Confidential",
+        "expected_salary": "Market Competitive",
+        "notice_period": "1 month",
+        "availability": "Immediate",
+        "social_media": {
+            "twitter": "@clarkkent",
+            "facebook": "facebook.com/clarkkent",
+            "instagram": "@clarkkent",
+            "medium": "@clarkkent",
+            "stack_overflow": "stackoverflow.com/users/clarkkent",
+            "portfolio": "clarkkent.dev/portfolio"
+        }
+    },
+    "summary": {
+        "professional_summary": "資深記者轉型為資安工程師，擁有豐富的即時反應和危機處理經驗。擅長在壓力下保持冷靜，並能在最短時間內解決複雜問題。具備出色的觀察力和分析能力，能夠快速識別潛在威脅。",
+        "career_objective": "將新聞報導的敏銳度和正義感轉化為網路安全防護，保護數位世界中的弱勢群體。致力於建立更安全的網路環境，讓每個人都能安心使用科技。",
+        "key_qualifications": [
+            "卓越的危機處理能力",
+            "快速學習和適應新技術",
+            "出色的問題解決能力",
+            "強大的責任感和正義感",
+            "優秀的團隊合作精神"
+        ],
+        "core_competencies": [
+            "即時反應和決策能力",
+            "風險評估和威脅分析",
+            "系統安全防護",
+            "漏洞檢測和修復",
+            "安全意識培訓"
+        ],
+        "industry_expertise": [
+            "網路安全",
+            "系統防護",
+            "資料加密",
+            "安全監控",
+            "應急響應"
+        ],
+        "professional_achievements": [
+            "在極端條件下保持系統穩定運行",
+            "快速識別和修復安全漏洞",
+            "建立有效的安全防護機制",
+            "成功阻止多起潛在的網路攻擊"
+        ],
+        "career_highlights": [
+            "從新聞現場到網路安全領域的完美轉型",
+            "將記者敏銳度應用於資安防護",
+            "建立快速響應的安全防護系統",
+            "保護數位世界中的弱勢群體"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "Daily Planet",
+            "position": "Senior Reporter",
+            "start_date": "2015-06-01",
+            "end_date": null,
+            "description": "作為資深記者，負責重大新聞事件的即時報導。以驚人的速度和準確性完成報導，經常能在其他記者之前到達現場。特別擅長災難現場報導，總能在最危險的時刻安全完成採訪任務。",
+            "achievements": [
+                "連續三年獲得『年度最佳記者』獎",
+                "獨家報導多起重大新聞事件，包括大都會市重大災難現場",
+                "建立廣泛的新聞來源網絡，能夠快速獲取第一手資訊",
+                "在極端天氣條件下仍能保持高質量報導"
+            ]
+        },
+        {
+            "company": "Smallville Gazette",
+            "position": "Junior Reporter",
+            "start_date": "2012-01-15",
+            "end_date": "2015-05-31",
+            "description": "在小型地方報社開始記者生涯，負責社區新聞和體育報導。以出色的體能和耐力聞名，能夠在短時間內完成多個採訪任務。特別關注弱勢群體和社會正義議題。",
+            "achievements": [
+                "成功揭露多起地方貪腐案件",
+                "在極端天氣條件下仍能完成採訪任務",
+                "建立社區信任，成為當地居民最信賴的記者",
+                "多次在危險情況下保護同事安全"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "Metropolis University",
+            "degree": "Bachelor of Science",
+            "major": "Journalism",
+            "start_date": "2004-09-01",
+            "end_date": "2008-06-15",
+            "gpa": 3.9,
+            "description": "主修新聞學，副修計算機科學。在校期間擔任校報編輯，並參與多個校園新聞項目。"
+        }
+    ],
+    "skills": [
+        {
+            "category": "Technical",
+            "name": "Network Security",
+            "level": "Expert",
+            "years_of_experience": 5
+        },
+        {
+            "category": "Technical",
+            "name": "System Administration",
+            "level": "Advanced",
+            "years_of_experience": 3
+        },
+        {
+            "category": "Soft Skills",
+            "name": "Crisis Management",
+            "level": "Expert",
+            "years_of_experience": 10
+        }
+    ],
+    "projects": [
+        {
+            "name": "Metropolis City Security System",
+            "role": "Lead Security Architect",
+            "start_date": "2020-01-01",
+            "end_date": "2021-12-31",
+            "description": "設計和實施大都會市的安全監控系統，提高城市安全防護能力。",
+            "technologies": ["Python", "TensorFlow", "OpenCV", "AWS"],
+            "achievements": [
+                "系統成功阻止多起潛在安全威脅",
+                "實現99.9%的系統可用性",
+                "獲得城市安全創新獎"
+            ]
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Certified Information Systems Security Professional (CISSP)",
+            "issuer": "ISC2",
+            "issue_date": "2019-06-01",
+            "expiry_date": "2024-06-01",
+            "credential_id": "CISSP-123456"
+        }
+    ],
+    "languages": [
+        {
+            "name": "English",
+            "proficiency": "Native",
+            "certificate": null
+        },
+        {
+            "name": "Kryptonian",
+            "proficiency": "Fluent",
+            "certificate": null
+        }
+    ],
+    "created_at": "2024-03-20",
+    "updated_at": "2024-03-20"
+} 
