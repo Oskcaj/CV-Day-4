@@ -121,6 +121,65 @@ cv = CV(
 )
 ```
 
+## Markdown CV Example
+
+```markdown
+# John Doe
+## Personal Information
+- 📧 Email: john.doe@example.com
+- 📱 Phone: +1234567890
+- 🌍 Location: Taipei, Taiwan
+- 🔗 LinkedIn: [linkedin.com/in/johndoe](https://linkedin.com/in/johndoe)
+- 💻 GitHub: [github.com/johndoe](https://github.com/johndoe)
+
+## Professional Summary
+Experienced software engineer with 5+ years of experience in full-stack development. 
+Specialized in Python, JavaScript, and cloud technologies.
+
+## Education
+### University of Example
+**Bachelor of Science in Computer Science** | 2018 - 2022
+- GPA: 3.8/4.0
+- Relevant Coursework: Data Structures, Algorithms, Database Systems
+- Honors: Dean's List (2019-2022)
+
+## Work Experience
+### Senior Software Engineer | Tech Company Inc.
+**2020 - Present**
+- Led development of microservices architecture
+- Implemented CI/CD pipelines
+- Mentored junior developers
+- Technologies: Python, Django, React, AWS
+
+## Skills
+### Programming Languages
+- Python (Expert)
+- JavaScript (Advanced)
+- Java (Intermediate)
+
+### Tools & Technologies
+- Docker
+- Kubernetes
+- AWS
+- Git
+
+## Projects
+### E-commerce Platform
+- Role: Lead Developer
+- Technologies: Python, Django, React, PostgreSQL
+- Achievements:
+  - Reduced page load time by 40%
+  - Implemented real-time inventory tracking
+
+## Certifications
+- AWS Certified Solutions Architect
+- Google Cloud Professional Developer
+
+## Languages
+- English (Fluent)
+- Mandarin (Native)
+```
+
 ## Contributing
 
 Feel free to contribute to this project by:
