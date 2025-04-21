@@ -1,193 +1,100 @@
-# CV Database Structure
+# Superman's CV - Interactive Resume Application
 
-This project provides a comprehensive and flexible data structure for managing Curriculum Vitae (CV) information using Pydantic v2. The structure is designed to handle detailed professional profiles with support for various types of information typically found in CVs.
+這是一個使用 Streamlit 建立的互動式履歷表應用程序，具有現代化的設計和超人主題的配色方案。
 
-## Features
+## 功能特點
 
-- **Flexible Data Structure**: All fields are optional, allowing for partial data entry
-- **Type Safety**: Built on Pydantic v2 for robust data validation
-- **Comprehensive Models**: Covers all aspects of a professional CV
-- **Extensible Design**: Easy to extend with additional fields as needed
+- 🎨 現代化且響應式的設計
+- 💼 完整的個人資料展示
+- 🏢 詳細的工作經驗時間軸
+- 📚 教育背景
+- 💡 專案展示
+- 📜 證照認證
+- 🌐 語言能力
+- 🎯 核心技能展示
+- 🏆 專業成就
+- 👤 個人照片展示
 
-## Data Models
+## 系統要求
 
-### 1. Personal Information (`PersonalInfo`)
-- Basic contact details
-- Social media profiles
-- Emergency contact information
-- Visa and work permit status
+- Python 3.8 或更高版本
+- pip（Python 包管理器）
 
-### 2. Professional Summary (`Summary`)
-- Professional summary
-- Career objectives
-- Key qualifications
-- Core competencies
-- Industry expertise
-- Professional achievements
-- Career highlights
-- Personal attributes (leadership style, work style, etc.)
+## 安裝步驟
 
-### 3. Education (`Education`)
-- School information
-- Degree and major
-- Dates and GPA
-- Honors and awards
-- Relevant courses
-- Thesis information
-- Extracurricular activities
+1. 克隆此專案：
+   ```bash
+   git clone <repository-url>
+   cd <project-directory>
+   ```
 
-### 4. Work Experience (`WorkExperience`)
-- Company details
-- Position and responsibilities
-- Employment period
-- Achievements
-- Department and supervisor
-- Technologies used
-- Salary information
-- Reason for leaving
+2. 創建並啟動虛擬環境（建議）：
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Unix/macOS
+   # 或
+   .\venv\Scripts\activate  # Windows
+   ```
 
-### 5. Skills (`Skill`)
-- Skill categories
-- Proficiency levels
-- Years of experience
-- Last used date
-- Related certifications
-- Project applications
+3. 安裝依賴包：
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### 6. Projects (`Project`)
-- Project details
-- Role and responsibilities
-- Timeline
-- Technologies used
-- Team information
-- Budget and deliverables
-- Challenges and results
+## 使用方法
 
-### 7. Certifications (`Certification`)
-- Certification details
-- Issuing organization
-- Validity period
-- Verification information
-- Related skills
-- Status tracking
+1. 確保您已經安裝所有依賴包。
 
-### 8. Languages (`Language`)
-- Language proficiency
-- Certification details
-- Years of experience
-- Last used date
-- Level assessment
+2. 在專案根目錄下運行應用程序：
+   ```bash
+   streamlit run app.py
+   ```
 
-### 9. Main CV Structure (`CV`)
-- Integration of all above models
-- Version control
-- Status tracking
-- Metadata support
-- Creation and update timestamps
+3. 應用程序將在您的默認瀏覽器中自動打開，通常是在 http://localhost:8501
 
-## Requirements
+## 自定義內容
 
-- Python 3.8+
-- Pydantic v2.0.0 or higher
-- python-dateutil 2.8.2 or higher
-- typing-extensions 4.5.0 or higher
+1. 個人資料：
+   - 編輯 `sample_cv.json` 文件來更新您的個人資訊
+   - 支持的字段包括：個人信息、工作經驗、教育背景、技能、專案等
 
-## Installation
+2. 個人照片：
+   - 將您的照片放在 `images` 目錄下
+   - 命名為 `superman_glasses.jpg`
 
-```bash
-pip install -r requirements.txt
+## 文件結構
+
+```
+.
+├── app.py              # 主應用程序文件
+├── sample_cv.json      # CV 數據文件
+├── requirements.txt    # 項目依賴
+├── README.md          # 項目文檔
+└── images/            # 圖片目錄
+    └── superman_glasses.jpg
 ```
 
-## Usage Example
+## 技術棧
 
-```python
-from cv_models import CV, PersonalInfo, Education
+- Streamlit：用於建立網頁應用界面
+- Python：後端邏輯處理
+- PIL (Pillow)：圖片處理
+- JSON：數據存儲格式
 
-# Create a new CV instance
-cv = CV(
-    personal_info=PersonalInfo(
-        name="John Doe",
-        email="john.doe@example.com",
-        phone="+1234567890"
-    ),
-    education=[
-        Education(
-            school="University of Example",
-            degree="Bachelor of Science",
-            major="Computer Science",
-            gpa=3.8
-        )
-    ]
-)
-```
+## 注意事項
 
-## Markdown CV Example
+- 請確保所有圖片都放在正確的目錄中
+- JSON 文件格式必須正確，否則可能導致應用程序無法正常運行
+- 建議使用虛擬環境來管理依賴包
 
-```markdown
-# John Doe
-## Personal Information
-- 📧 Email: john.doe@example.com
-- 📱 Phone: +1234567890
-- 🌍 Location: Taipei, Taiwan
-- 🔗 LinkedIn: [linkedin.com/in/johndoe](https://linkedin.com/in/johndoe)
-- 💻 GitHub: [github.com/johndoe](https://github.com/johndoe)
+## 貢獻指南
 
-## Professional Summary
-Experienced software engineer with 5+ years of experience in full-stack development. 
-Specialized in Python, JavaScript, and cloud technologies.
+歡迎提交 Pull Requests 來改進這個項目！請確保您的代碼符合以下要求：
 
-## Education
-### University of Example
-**Bachelor of Science in Computer Science** | 2018 - 2022
-- GPA: 3.8/4.0
-- Relevant Coursework: Data Structures, Algorithms, Database Systems
-- Honors: Dean's List (2019-2022)
+1. 遵循 PEP 8 編碼規範
+2. 提供適當的文檔說明
+3. 確保所有測試都能通過
 
-## Work Experience
-### Senior Software Engineer | Tech Company Inc.
-**2020 - Present**
-- Led development of microservices architecture
-- Implemented CI/CD pipelines
-- Mentored junior developers
-- Technologies: Python, Django, React, AWS
+## 授權
 
-## Skills
-### Programming Languages
-- Python (Expert)
-- JavaScript (Advanced)
-- Java (Intermediate)
-
-### Tools & Technologies
-- Docker
-- Kubernetes
-- AWS
-- Git
-
-## Projects
-### E-commerce Platform
-- Role: Lead Developer
-- Technologies: Python, Django, React, PostgreSQL
-- Achievements:
-  - Reduced page load time by 40%
-  - Implemented real-time inventory tracking
-
-## Certifications
-- AWS Certified Solutions Architect
-- Google Cloud Professional Developer
-
-## Languages
-- English (Fluent)
-- Mandarin (Native)
-```
-
-## Contributing
-
-Feel free to contribute to this project by:
-1. Reporting bugs
-2. Suggesting improvements
-3. Adding new features
-4. Improving documentation
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+MIT License
